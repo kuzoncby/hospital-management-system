@@ -1,0 +1,27 @@
+doctor
+	id: long PK
+	name: string
+	password: string
+	dep: long FK
+
+department
+	id: long PK
+	name: string
+
+patient
+	id: long PK
+	name: string
+	description: string
+	doctor: long FK
+	dep: long FK
+medical
+	id: long PK
+	name: string
+cure
+	id: long PK
+	patient: long FK
+	doctor: long FK
+	medical: long FK
+	count: double
+	unit: string
+	timestamp: timestamp
