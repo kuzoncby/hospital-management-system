@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.1.3.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.3.RELEASE/9c3d305846ae369b91663038b14c387c3d625756/spring-cloud-starter-eureka-1.1.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.3.RELEASE/2a26f6e598a928203d62214a31ff0642bb7f7a05/spring-cloud-starter-eureka-1.1.3.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
