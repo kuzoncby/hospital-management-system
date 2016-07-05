@@ -1,13 +1,15 @@
 package gov.whocare.controller;
 
 import gov.whocare.model.Doctor;
+import gov.whocare.model.Patient;
 import gov.whocare.repository.DoctorRepository;
 import org.codehaus.jettison.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+
+import java.util.List;
 
 /**
  * Created by Kuzon on 2016/7/4.
@@ -31,6 +33,17 @@ public class DoctorController {
         } else {
             return d;
         }
+    }
+
+    @RequestMapping(value = "/{doctor_id}")
+    public Doctor getOneDoctor(@PathVariable long doctor_id) {
+        return repository.findOne(doctor_id);
+    }
+
+    @RequestMapping(value = "/{doctor_id}/patients")
+    public List<Patient> getPatients(@PathVariable long doctor_id){
+        Doctor doctor = repository.findOne(doctor_id);
+        return doctor.getPatients();
     }
 
 }

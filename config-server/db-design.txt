@@ -14,9 +14,11 @@ patient
 	description: string
 	doctor: long FK
 	dep: long FK
+
 medical
 	id: long PK
 	name: string
+
 cure
 	id: long PK
 	patient: long FK

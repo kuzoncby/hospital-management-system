@@ -1,0 +1,17 @@
+config server -> 8000
+api gateway -> 80
+
+doctor -> 9000
+patient -> 9001
+cure -> 9002
+
+POST    /doctor  {doctor_name, doctor_password}医生登陆
+POST    /doctor/add  {doctor_name, doctor_password}医生添加
+GET /department 取得部门
+GET /doctor/{doctor_id} 医生信息
+GET /doctor/{doctor_id}/patients    列出病人
+GET /patient/{patient_id}    病人信息
+GET /cure/{patient_id}   治疗信息
+
+POST /patient/add 入院
+GET /patient/remove/{patient_id} 出院
