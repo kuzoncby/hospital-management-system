@@ -2,10 +2,12 @@
   <library name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.1.4.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.4.BUILD-SNAPSHOT/84614e5cd7c5ca4000aff03b5e449ec1c94b02b/spring-cloud-starter-eureka-1.1.4.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.4.BUILD-SNAPSHOT/e520e7ba7eb95f03418b2fe18f5a8120ba65d7d/spring-cloud-starter-eureka-1.1.4.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.4.BUILD-SNAPSHOT/47c4d004e1c3f538c8fa4d2529fc2a62d3387308/spring-cloud-starter-eureka-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.4.BUILD-SNAPSHOT/f117c47d71592f71c51dcbde4a0977e716dc49a5/spring-cloud-starter-eureka-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

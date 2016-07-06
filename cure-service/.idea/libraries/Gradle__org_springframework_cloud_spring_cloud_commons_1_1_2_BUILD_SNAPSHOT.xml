@@ -2,10 +2,12 @@
   <library name="Gradle: org.springframework.cloud:spring-cloud-commons:1.1.2.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.2.BUILD-SNAPSHOT/cbf0662dec30354b38188952f8448f1a02ab0d7e/spring-cloud-commons-1.1.2.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.2.BUILD-SNAPSHOT/c9632123ca7e319a5984bb273b92661bc0b9bb8a/spring-cloud-commons-1.1.2.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.2.BUILD-SNAPSHOT/37175e3682d4a306ed3a93e83081167cacfff6/spring-cloud-commons-1.1.2.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.2.BUILD-SNAPSHOT/ccc4348b960e93dde179f860889e730cf70ad656/spring-cloud-commons-1.1.2.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

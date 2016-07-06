@@ -2,10 +2,12 @@
   <library name="Gradle: org.springframework.cloud:spring-cloud-starter-ribbon:1.1.4.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.4.BUILD-SNAPSHOT/9b718a4164c78ad077c45bf5229134be8ce2c0d7/spring-cloud-starter-ribbon-1.1.4.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.4.BUILD-SNAPSHOT/82f0758b9ff4ca296238ba54fcfc47f32abbaefa/spring-cloud-starter-ribbon-1.1.4.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.4.BUILD-SNAPSHOT/47b68146a7787b090097b07b9ec52d868dc9937/spring-cloud-starter-ribbon-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.4.BUILD-SNAPSHOT/bd34fa3137facf218ec0cc16dcd0216be1a20663/spring-cloud-starter-ribbon-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -2,10 +2,12 @@
   <library name="Gradle: org.springframework.cloud:spring-cloud-starter-zuul:1.1.4.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.4.BUILD-SNAPSHOT/1eab582a628581340de9f8ca323a7ecc18213267/spring-cloud-starter-zuul-1.1.4.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.4.BUILD-SNAPSHOT/5ba345a2835f4cd256989960a68208d07108d8c9/spring-cloud-starter-zuul-1.1.4.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.4.BUILD-SNAPSHOT/93a6a73c9aacef0c40eab40e6490e8512ed4e116/spring-cloud-starter-zuul-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.4.BUILD-SNAPSHOT/ca5810d7cb93435a0e9588508d66d629cd382e4b/spring-cloud-starter-zuul-1.1.4.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
