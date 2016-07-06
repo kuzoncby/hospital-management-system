@@ -2,84 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71590a3e-efae-4c7f-b8d3-b06a59a3ee05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_36.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_36.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_24_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_aop_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_context_support_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_core_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_test_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_web_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../config-server/src/main/docker/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cure-service/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cure-service/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../doctor-service/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../patient-service/.idea/deployment.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_33.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_33.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_3_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_aop_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_context_support_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_core_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_test_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_web_4_2_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/build.gradle" afterPath="$PROJECT_DIR$/../config-server/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/config-server.iml" afterPath="$PROJECT_DIR$/../config-server/config-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_1_2_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_1_2_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_1_2_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_1_2_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_core_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_core_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_1_1_2_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_1_1_2_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_archaius_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_archaius_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_eureka_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_eureka_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_feign_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_feign_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_hystrix_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_hystrix_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_ribbon_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_ribbon_1_1_4_BUILD_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_zuul_1_1_4_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_zuul_1_1_4_BUILD_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/build.gradle" afterPath="$PROJECT_DIR$/../cure-service/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../doctor-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../doctor-service/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../doctor-service/build.gradle" afterPath="$PROJECT_DIR$/../doctor-service/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patient-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../patient-service/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patient-service/build.gradle" afterPath="$PROJECT_DIR$/../patient-service/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_6_6.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_6_6.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_6_6.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_6_6.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_6_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_6_6.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_6_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_0_33.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_0_36.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_0_33.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_0_36.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_3_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_3_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_freemarker_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_freemarker_1_3_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_1_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_1_3_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_context_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_context_4_2_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_expression_4_2_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/libraries/Gradle__org_springframework_spring_expression_4_2_7_RELEASE.xml" />
     </list>
     <ignored path="api-gateway.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1032,12 +960,12 @@
       <workItem from="1467680527723" duration="2513000" />
       <workItem from="1467723763368" duration="599000" />
       <workItem from="1467726262655" duration="1196000" />
-      <workItem from="1467816522040" duration="2006000" />
+      <workItem from="1467816522040" duration="2259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12569000" />
+    <option name="totallyTimeSpent" value="12822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

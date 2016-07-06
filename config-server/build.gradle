@@ -52,6 +52,10 @@ eclipse {
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
+
 task buildDocker(type: Docker, dependsOn: build) {
     push = true
     applicationName = jar.baseName
