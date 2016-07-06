@@ -1,8 +1,10 @@
 package gov.whocare.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -23,7 +25,7 @@ public class Doctor implements Serializable {
 
     //bi-directional many-to-one association to Cure
     @OneToMany(mappedBy = "doctor")
-    private List<Cure> cures;
+    private Set<Cure> cures;
 
     //bi-directional many-to-one association to Department
     @ManyToOne
@@ -31,7 +33,7 @@ public class Doctor implements Serializable {
 
     //bi-directional many-to-many association to Patient
     @ManyToMany(mappedBy = "doctors")
-    private List<Patient> patients;
+    private Set<Patient> patients;
 
     public Doctor() {
     }
@@ -60,14 +62,17 @@ public class Doctor implements Serializable {
         this.password = password;
     }
 
-    public List<Cure> getCures() {
+    @JsonIgnore
+    public Set<Cure> getCures() {
         return this.cures;
     }
 
-    public void setCures(List<Cure> cures) {
+    @JsonIgnore
+    public void setCures(Set<Cure> cures) {
         this.cures = cures;
     }
 
+    @JsonIgnore
     public Cure addCure(Cure cure) {
         getCures().add(cure);
         cure.setDoctor(this);
@@ -75,6 +80,7 @@ public class Doctor implements Serializable {
         return cure;
     }
 
+    @JsonIgnore
     public Cure removeCure(Cure cure) {
         getCures().remove(cure);
         cure.setDoctor(null);
@@ -82,19 +88,23 @@ public class Doctor implements Serializable {
         return cure;
     }
 
+    @JsonIgnore
     public Department getDepartment() {
         return this.department;
     }
 
+    @JsonIgnore
     public void setDepartment(Department department) {
         this.department = department;
     }
 
-    public List<Patient> getPatients() {
+    @JsonIgnore
+    public Set<Patient> getPatients() {
         return this.patients;
     }
 
-    public void setPatients(List<Patient> patients) {
+    @JsonIgnore
+    public void setPatients(Set<Patient> patients) {
         this.patients = patients;
     }
 

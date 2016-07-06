@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Kuzon on 2016/7/4.
@@ -41,7 +41,7 @@ public class DoctorController {
     }
 
     @RequestMapping(value = "/{doctor_id}/patients")
-    public List<Patient> getPatients(@PathVariable long doctor_id){
+    public Set<Patient> getPatients(@PathVariable long doctor_id){
         Doctor doctor = repository.findOne(doctor_id);
         return doctor.getPatients();
     }

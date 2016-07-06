@@ -1,8 +1,11 @@
 package gov.whocare.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -23,7 +26,8 @@ public class Patient implements Serializable {
 
     //bi-directional many-to-one association to Cure
     @OneToMany(mappedBy = "patient")
-    private List<Cure> cures;
+    @JsonManagedReference
+    private Set<Cure> cures;
 
     //bi-directional many-to-many association to Doctor
     @ManyToMany
@@ -36,7 +40,7 @@ public class Patient implements Serializable {
             @JoinColumn(name = "doctor_id")
     }
     )
-    private List<Doctor> doctors;
+    private Set<Doctor> doctors;
 
     //bi-directional many-to-one association to Department
     @ManyToOne
@@ -69,14 +73,17 @@ public class Patient implements Serializable {
         this.name = name;
     }
 
-    public List<Cure> getCures() {
+    @JsonIgnore
+    public Set<Cure> getCures() {
         return this.cures;
     }
 
-    public void setCures(List<Cure> cures) {
+    @JsonIgnore
+    public void setCures(Set<Cure> cures) {
         this.cures = cures;
     }
 
+    @JsonIgnore
     public Cure addCure(Cure cure) {
         getCures().add(cure);
         cure.setPatient(this);
@@ -84,6 +91,7 @@ public class Patient implements Serializable {
         return cure;
     }
 
+    @JsonIgnore
     public Cure removeCure(Cure cure) {
         getCures().remove(cure);
         cure.setPatient(null);
@@ -91,20 +99,35 @@ public class Patient implements Serializable {
         return cure;
     }
 
-    public List<Doctor> getDoctors() {
+    @JsonIgnore
+    public Set<Doctor> getDoctors() {
         return this.doctors;
     }
 
-    public void setDoctors(List<Doctor> doctors) {
+    @JsonIgnore
+    public void setDoctors(Set<Doctor> doctors) {
         this.doctors = doctors;
     }
 
+    @JsonIgnore
     public Department getDepartment() {
         return this.department;
     }
 
+    @JsonIgnore
     public void setDepartment(Department department) {
         this.department = department;
     }
 
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "id=" + id +
+                ", description='" + description + '\'' +
+                ", name='" + name + '\'' +
+                ", cures=" + cures +
+                ", doctors=" + doctors +
+                ", department=" + department +
+                '}';
+    }
 }

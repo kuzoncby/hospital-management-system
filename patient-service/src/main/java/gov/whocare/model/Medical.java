@@ -1,8 +1,10 @@
 package gov.whocare.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -21,7 +23,7 @@ public class Medical implements Serializable {
 
     //bi-directional many-to-one association to Cure
     @OneToMany(mappedBy = "medical")
-    private List<Cure> cures;
+    private Set<Cure> cures;
 
     public Medical() {
     }
@@ -42,14 +44,17 @@ public class Medical implements Serializable {
         this.name = name;
     }
 
-    public List<Cure> getCures() {
+    @JsonIgnore
+    public Set<Cure> getCures() {
         return this.cures;
     }
 
-    public void setCures(List<Cure> cures) {
+    @JsonIgnore
+    public void setCures(Set<Cure> cures) {
         this.cures = cures;
     }
 
+    @JsonIgnore
     public Cure addCure(Cure cure) {
         getCures().add(cure);
         cure.setMedical(this);
@@ -57,6 +62,7 @@ public class Medical implements Serializable {
         return cure;
     }
 
+    @JsonIgnore
     public Cure removeCure(Cure cure) {
         getCures().remove(cure);
         cure.setMedical(null);

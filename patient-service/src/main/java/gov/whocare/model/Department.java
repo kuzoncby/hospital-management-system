@@ -1,8 +1,10 @@
 package gov.whocare.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -21,11 +23,11 @@ public class Department implements Serializable {
 
     //bi-directional many-to-one association to Doctor
     @OneToMany(mappedBy = "department")
-    private List<Doctor> doctors;
+    private Set<Doctor> doctors;
 
     //bi-directional many-to-one association to Patient
     @OneToMany(mappedBy = "department")
-    private List<Patient> patients;
+    private Set<Patient> patients;
 
     public Department() {
     }
@@ -46,14 +48,17 @@ public class Department implements Serializable {
         this.name = name;
     }
 
-    public List<Doctor> getDoctors() {
+    @JsonIgnore
+    public Set<Doctor> getDoctors() {
         return this.doctors;
     }
 
-    public void setDoctors(List<Doctor> doctors) {
+    @JsonIgnore
+    public void setDoctors(Set<Doctor> doctors) {
         this.doctors = doctors;
     }
 
+    @JsonIgnore
     public Doctor addDoctor(Doctor doctor) {
         getDoctors().add(doctor);
         doctor.setDepartment(this);
@@ -61,6 +66,7 @@ public class Department implements Serializable {
         return doctor;
     }
 
+    @JsonIgnore
     public Doctor removeDoctor(Doctor doctor) {
         getDoctors().remove(doctor);
         doctor.setDepartment(null);
@@ -68,14 +74,17 @@ public class Department implements Serializable {
         return doctor;
     }
 
-    public List<Patient> getPatients() {
+    @JsonIgnore
+    public Set<Patient> getPatients() {
         return this.patients;
     }
 
-    public void setPatients(List<Patient> patients) {
+    @JsonIgnore
+    public void setPatients(Set<Patient> patients) {
         this.patients = patients;
     }
 
+    @JsonIgnore
     public Patient addPatient(Patient patient) {
         getPatients().add(patient);
         patient.setDepartment(this);
@@ -83,6 +92,7 @@ public class Department implements Serializable {
         return patient;
     }
 
+    @JsonIgnore
     public Patient removePatient(Patient patient) {
         getPatients().remove(patient);
         patient.setDepartment(null);

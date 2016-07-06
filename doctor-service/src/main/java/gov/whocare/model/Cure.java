@@ -1,5 +1,8 @@
 package gov.whocare.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -33,6 +36,7 @@ public class Cure implements Serializable {
 
     //bi-directional many-to-one association to Patient
     @ManyToOne
+    @JsonBackReference
     private Patient patient;
 
     public Cure() {
@@ -70,26 +74,32 @@ public class Cure implements Serializable {
         this.unit = unit;
     }
 
+    @JsonIgnore
     public Doctor getDoctor() {
         return this.doctor;
     }
 
+    @JsonIgnore
     public void setDoctor(Doctor doctor) {
         this.doctor = doctor;
     }
 
+    @JsonIgnore
     public Medical getMedical() {
         return this.medical;
     }
 
+    @JsonIgnore
     public void setMedical(Medical medical) {
         this.medical = medical;
     }
 
+    @JsonIgnore
     public Patient getPatient() {
         return this.patient;
     }
 
+    @JsonIgnore
     public void setPatient(Patient patient) {
         this.patient = patient;
     }
