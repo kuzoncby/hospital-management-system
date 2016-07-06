@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-group = 'springio'
+group = 'kuzoncby'
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -53,7 +53,7 @@ eclipse {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
+    gradleVersion = '2.12'
 }
 
 task buildDocker(type: Docker, dependsOn: build) {

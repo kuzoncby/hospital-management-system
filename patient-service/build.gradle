@@ -7,8 +7,11 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath('se.transmode.gradle:gradle-docker:1.2')
     }
 }
+
+group = 'kuzoncby'
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -50,5 +53,21 @@ eclipse {
     classpath {
         containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
         containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8'
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.12'
+}
+
+task buildDocker(type: Docker, dependsOn: build) {
+    push = true
+    applicationName = jar.baseName
+    dockerfile = file('src/main/docker/Dockerfile')
+    doFirst {
+        copy {
+            from jar
+            into stageDir
+        }
     }
 }

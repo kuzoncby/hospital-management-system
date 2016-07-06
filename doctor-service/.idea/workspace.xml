@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb82e32-f29a-4051-9510-0ffd9080dc1f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api-gateway/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cure-service/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../patient-service/src/main/docker/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api-gateway/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../api-gateway/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api-gateway/build.gradle" afterPath="$PROJECT_DIR$/../api-gateway/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../config-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/build.gradle" afterPath="$PROJECT_DIR$/../config-server/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config-server/config-server.iml" afterPath="$PROJECT_DIR$/../config-server/config-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cure-service/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/build.gradle" afterPath="$PROJECT_DIR$/../cure-service/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cure-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../cure-service/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patient-service/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../patient-service/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patient-service/build.gradle" afterPath="$PROJECT_DIR$/../patient-service/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patient-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../patient-service/src/main/resources/application.properties" />
     </list>
     <ignored path="doctor-service.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,17 +91,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04550898">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            <state vertical-scroll-proportion="-2.8983052">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -109,156 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Doctor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/model/Doctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#908#909#0" expanded="false" />
-                <element signature="e#938#939#0" expanded="false" />
-                <element signature="e#972#973#0" expanded="false" />
-                <element signature="e#1000#1001#0" expanded="false" />
-                <element signature="e#1031#1032#0" expanded="false" />
-                <element signature="e#1063#1064#0" expanded="false" />
-                <element signature="e#1103#1104#0" expanded="false" />
-                <element signature="e#1135#1136#0" expanded="false" />
-                <element signature="e#1170#1171#0" expanded="false" />
-                <element signature="e#1206#1207#0" expanded="false" />
-                <element signature="e#1254#1255#0" expanded="false" />
-                <element signature="e#1294#1295#0" expanded="false" />
-                <element signature="e#1345#1346#0" expanded="false" />
-                <element signature="e#1378#1379#0" expanded="false" />
-                <element signature="e#1439#1440#0" expanded="false" />
-                <element signature="e#1473#1474#0" expanded="false" />
-                <element signature="e#1820#1821#0" expanded="false" />
-                <element signature="e#1858#1859#0" expanded="false" />
-                <element signature="e#1930#1931#0" expanded="false" />
-                <element signature="e#1974#1975#0" expanded="false" />
-                <element signature="e#2031#2032#0" expanded="false" />
-                <element signature="e#2067#2068#0" expanded="false" />
-                <element signature="e#2137#2138#0" expanded="false" />
-                <element signature="e#2177#2178#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/model/Cure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#953#954#0" expanded="false" />
-                <element signature="e#983#984#0" expanded="false" />
-                <element signature="e#1017#1018#0" expanded="false" />
-                <element signature="e#1045#1046#0" expanded="false" />
-                <element signature="e#1077#1078#0" expanded="false" />
-                <element signature="e#1110#1111#0" expanded="false" />
-                <element signature="e#1152#1153#0" expanded="false" />
-                <element signature="e#1186#1187#0" expanded="false" />
-                <element signature="e#1220#1221#0" expanded="false" />
-                <element signature="e#1252#1253#0" expanded="false" />
-                <element signature="e#1295#1296#0" expanded="false" />
-                <element signature="e#1327#1328#0" expanded="false" />
-                <element signature="e#1358#1359#0" expanded="false" />
-                <element signature="e#1390#1391#0" expanded="false" />
-                <element signature="e#1430#1431#0" expanded="false" />
-                <element signature="e#1462#1463#0" expanded="false" />
-                <element signature="e#1511#1512#0" expanded="false" />
-                <element signature="e#1545#1546#0" expanded="false" />
-                <element signature="e#1605#1606#0" expanded="false" />
-                <element signature="e#1641#1642#0" expanded="false" />
-                <element signature="e#1692#1693#0" expanded="false" />
-                <element signature="e#1727#1728#0" expanded="false" />
-                <element signature="e#1790#1791#0" expanded="false" />
-                <element signature="e#1828#1829#0" expanded="false" />
-                <element signature="e#1879#1880#0" expanded="false" />
-                <element signature="e#1914#1915#0" expanded="false" />
-                <element signature="e#1977#1978#0" expanded="false" />
-                <element signature="e#2015#2016#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#795#796#0" expanded="false" />
-                <element signature="e#825#826#0" expanded="false" />
-                <element signature="e#859#860#0" expanded="false" />
-                <element signature="e#887#888#0" expanded="false" />
-                <element signature="e#918#919#0" expanded="false" />
-                <element signature="e#950#951#0" expanded="false" />
-                <element signature="e#990#991#0" expanded="false" />
-                <element signature="e#1022#1023#0" expanded="false" />
-                <element signature="e#1077#1078#0" expanded="false" />
-                <element signature="e#1112#1113#0" expanded="false" />
-                <element signature="e#1179#1180#0" expanded="false" />
-                <element signature="e#1217#1218#0" expanded="false" />
-                <element signature="e#1604#1605#0" expanded="false" />
-                <element signature="e#1640#1641#0" expanded="false" />
-                <element signature="e#1710#1711#0" expanded="false" />
-                <element signature="e#1750#1751#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/model/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1209#1210#0" expanded="false" />
-                <element signature="e#1239#1240#0" expanded="false" />
-                <element signature="e#1273#1274#0" expanded="false" />
-                <element signature="e#1301#1302#0" expanded="false" />
-                <element signature="e#1339#1340#0" expanded="false" />
-                <element signature="e#1378#1379#0" expanded="false" />
-                <element signature="e#1432#1433#0" expanded="false" />
-                <element signature="e#1478#1479#0" expanded="false" />
-                <element signature="e#1509#1510#0" expanded="false" />
-                <element signature="e#1541#1542#0" expanded="false" />
-                <element signature="e#1581#1582#0" expanded="false" />
-                <element signature="e#1613#1614#0" expanded="false" />
-                <element signature="e#1664#1665#0" expanded="false" />
-                <element signature="e#1697#1698#0" expanded="false" />
-                <element signature="e#1758#1759#0" expanded="false" />
-                <element signature="e#1792#1793#0" expanded="false" />
-                <element signature="e#2139#2140#0" expanded="false" />
-                <element signature="e#2174#2175#0" expanded="false" />
-                <element signature="e#2241#2242#0" expanded="false" />
-                <element signature="e#2279#2280#0" expanded="false" />
-                <element signature="e#2336#2337#0" expanded="false" />
-                <element signature="e#2374#2375#0" expanded="false" />
-                <element signature="e#2446#2447#0" expanded="false" />
-                <element signature="e#2490#2491#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Medical.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/model/Medical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -966,13 +839,13 @@
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/model/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/model/Patient.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/repository/DoctorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/DoctorServiceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/model/Doctor.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/model/Cure.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/controller/DoctorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/gov/whocare/model/Medical.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -1189,6 +1062,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doctor-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doctor-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1205,6 +1100,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\hospital-management-system\doctor-service\src\main\docker" />
       <recent name="E:\IdeaProjects\hospital-management-system\doctor-service\src\main\java\gov\whocare\model" />
     </key>
   </component>
@@ -1537,6 +1433,36 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1619,6 +1545,21 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Doctor" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="gov.whocare.DoctorServiceApplication" />
@@ -1657,16 +1598,16 @@
       <workItem from="1467680526618" duration="7904000" />
       <workItem from="1467723762512" duration="654000" />
       <workItem from="1467726261436" duration="5764000" />
-      <workItem from="1467816539136" duration="2253000" />
+      <workItem from="1467816539136" duration="3098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25251000" />
+    <option name="totallyTimeSpent" value="26096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1675,7 +1616,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5469314" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5460455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1718,14 +1659,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/repository/DoctorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/controller/DoctorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2182,14 +2115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gov/whocare/DoctorServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2352,8 +2277,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04550898">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        <state vertical-scroll-proportion="-2.8983052">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
